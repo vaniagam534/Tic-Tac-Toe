@@ -9,6 +9,34 @@ body{
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+  background-color: rgb(100, 98, 102);
+  color:white;
+  width: fit-content;
+  margin: 50px 30%;
+}
+
+.game
+{
+   
+ /* object-fit:contain; */
+  /* width:fit-content; */
+  /* height:auto; */
+  display: flex;
+  flex-direction:row;
+  justify-content: center; 
+    margin:0px auto;
+ 
+}
+
+
+div.item{
+
+  font-weight: bold;
+  font-size: 20px;
+
+ }
+
 
 .board-row::after
 {
@@ -16,26 +44,48 @@ body{
   clear: both;
   content: ' ';
   display: table;
+
+
+ 
 }
 
 .square
 {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 70px;
   padding: 30px;
   float:left;
-  font-size: large;
-  line-height: 1.5px;
- 
-    background-color: rgba(128, 128, 128, 0.226);
+  font-size: 1.5em;
+  line-height: 2.5px;
+  font-weight: 700;
+  color:white;
+  background-color: rgb(100, 98, 102);
 
 }
 .status
 {
   font-size:28px;
   font-weight: bold;
-  background-color: rgba(255, 255, 0, 0.157);
+  background-color: rgb(17, 155, 240);
+  color:white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width: 50%;
-  margin:0 auto;
+  width: fit-content;
+  margin:20px auto;
+ 
 }
+.game-info
+{
+  
+
+margin:60px 70px ;
+
+
+}
+
+button
+{
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
